@@ -1,0 +1,160 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a, a::before, a::after {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Outfit, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  background-color: #0d192b;
+  color: #8bacda;
+}
+
+.box {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%);
+  -ms-transform: translate(-50%);
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: #14253d;
+  height: 37.5rem;
+  width: 21.875rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  -webkit-box-shadow: 0.625rem 1.25rem 1.5625rem 0.9375rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0.625rem 1.25rem 1.5625rem 0.9375rem rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.card .card-photo {
+  background-image: url(/images/image-equilibrium.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 18.75rem;
+}
+
+.card h4 {
+  color: white;
+  font-size: 1.375rem;
+  margin: 1.4375rem 0 1.4375rem 0;
+}
+
+.card p {
+  font-weight: 200;
+  margin: 0;
+}
+
+.card ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0 0;
+  width: 100%;
+  margin: 1.375rem 0 1.375rem 0;
+}
+
+.card li {
+  display: inline-block;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.card li:first-child {
+  color: #00fff7;
+  background: url(/images/icon-ethereum.svg) no-repeat 0 0.1875rem;
+  padding-left: 1.0625rem;
+}
+
+li:last-child {
+  float: right;
+  background: url(/images/icon-clock.svg) no-repeat 0 0.1875rem;
+}
+
+hr {
+  color: #2f415b;
+  width: 100%;
+  margin: 0;
+}
+
+h5 {
+  margin-top: .3125rem;
+}
+
+h5::before {
+  content: " ";
+  background: url(/images/image-avatar.png);
+  background-size: cover;
+  border-radius: 50%;
+  border: .0625rem white solid;
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  top: 11px;
+  position: relative;
+  margin-right: 1.125rem;
+}
+
+a {
+  color: white;
+}
+
+.attribution {
+  margin-top: 2.5rem;
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+}
+
+.attribution .attribution a {
+  color: #3e52a3;
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    height: 33.875rem;
+    width: 20.125rem;
+  }
+  .card .card-photo {
+    height: 17.1875rem;
+  }
+  .card p {
+    font-size: .9375rem;
+    margin-bottom: 0;
+  }
+  .card ul {
+    margin: .75rem 0 .75rem 0;
+  }
+  .card h5 {
+    margin: 0 0 .5625rem 0;
+  }
+  .attribution {
+    margin-top: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
