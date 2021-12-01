@@ -87,13 +87,13 @@ body {
 
 .card li:first-child {
   color: #00fff7;
-  background: url(/images/icon-ethereum.svg) no-repeat 0 0.1875rem;
+  background: url(https://arismercedes.github.io/NFT-preview-card-component-challenge-hub/images/icon-ethereum.svg) no-repeat 0 0.1875rem;
   padding-left: 1.0625rem;
 }
 
 li:last-child {
   float: right;
-  background: url(/images/icon-clock.svg) no-repeat 0 0.1875rem;
+  background: url(https://arismercedes.github.io/NFT-preview-card-component-challenge-hub/images/icon-clock.svg) no-repeat 0 0.1875rem;
 }
 
 hr {
@@ -108,7 +108,7 @@ h5 {
 
 h5::before {
   content: " ";
-  background: url(/images/image-avatar.png);
+  background: url(https://arismercedes.github.io/NFT-preview-card-component-challenge-hub/images/image-avatar.png);
   background-size: cover;
   border-radius: 50%;
   border: .0625rem white solid;
